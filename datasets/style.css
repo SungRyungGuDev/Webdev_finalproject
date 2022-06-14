@@ -1,0 +1,77 @@
+.container {
+    margin: auto;
+  }
+  
+  header {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 55px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    background-color: rgb(14, 17, 1);
+    color: antiquewhite;
+    padding: 30px;
+    padding-bottom: 20px;
+  }
+  
+  body {
+    background-image: url(./img/back.jpg);
+    background-size: cover;
+  }
+  form {
+    width: 1000px;
+    min-width: 20rem;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-style: double;
+    border-color: rgb(113, 91, 241);
+    border-width: 10px;
+    border-radius: 50px;
+    background-color: hsla(187, 100%, 64%, 1);
+    padding: 4rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #permitnum, #inputadd, #inputcost, #inputtype {
+    margin-top: 20px;
+    width: 400px;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
+  #id {
+    margin-left: 120px;
+  }
+  
+  #name {
+    margin-left: 40px;
+  }
+  
+  #resultTable {
+    background-color: rgb(58, 61, 53);
+    font-weight: 500;
+    color: antiquewhite;
+  }
+  
+  table{
+    margin: auto;
+    border-collapse: separate;
+    border-spacing: 50px 50px;
+}
+
+.td1 {
+  width: 400px;
+}
+
+html,body {
+
+	margin: 0;
+
+	padding: 0;
+
+}

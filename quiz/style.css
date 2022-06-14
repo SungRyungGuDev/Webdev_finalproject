@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Kanit:wght@500&family=Lobster&display=swap");
+
+header {
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  background-color: rgb(245, 86, 86);
+  color: antiquewhite;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.regform {
+    font-family: "Kanit", sans-serif;
+    width: 1200px;
+    background-color: rgba(255, 226, 223, 0.8);
+    margin: auto;
+    color: #5c5c5c;
+    padding: 30px 15px 15px 15px;
+    
+    border-radius: 15px 15px 15px 15px;
+    font-size: 20px;
+}
+
+.main {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: rgb(51, 50, 50);
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 0%;
+    padding: 15px;
+    padding-left: 230px;
+    font-size: 14px;
+    text-align: right;
+  }
+  
+  .footer_table td,
+  th {
+    width: 50%;
+    margin-left: 50px;
+  }
+  
+  .left_align {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 120px;
+  }
+  
+  .center_align {
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  
+  .right_align {
+    text-align: right;
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  
+
+  body {
+    background-image: url(./img/back.jpg);
+  }

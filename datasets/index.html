@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6f5bed1d29.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Search Bar</title>
+</head>
+<body>
+    <header>
+        <p>Search Site & Mapping Information</p>
+        <div id="date"></div>
+    </header>
+<div class="container">
+        <form action="none" class="mainpart">
+            <h1><i class="fa-solid fa-rectangle-list"></i>&nbsp;&nbsp;&nbsp; Search Information Bar</h1>
+            <hr>
+            <br>
+            <div id="bar">
+                <p>Choose Kind of Search Data :
+                    <table>
+                        <tr>
+                            <td class="td1">
+                                <input type="radio" id="permit" name="menu" value="permit" onchange="menuChoice(permit)">Permit Number
+                            </td>
+                            <td class="td1">
+                                <input type="radio" id="address" name="menu" value="address" onchange="menuChoice(address)">Address
+                            </td>
+                            <td class="td1">
+                                <input type="radio" id="cost" name="menu" value="cost" onchange="menuChoice(cost)">Estimated Cost
+                            </td>
+                        </tr>
+                    </table> 
+                    <hr>
+                    <div id="input">    
+                    </div>
+                </p>
+            </div>
+        </form>
+    </div>
+    <br>
+    <br>
+    <div class="row justify-content-center">
+    <div class="col-md-8">
+        <table class="table table-hover" id="resultTable">
+            <thead>
+            <tr>
+                <th>Permit Number</th>
+                <th>Address</th>
+                <th>Type</th>
+                <th>latitude</th>
+                <th>longitude</th>
+                <th>Estimated Cost</th>
+                <th>Select</th>
+            </tr>
+            </thead>
+            <tbody id="searchresults">
+            </tbody>
+        </table>
+    </div>
+    </div>
+    
+    <script src="./js.js"></script>
+</body>
+</html>

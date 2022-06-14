@@ -1,0 +1,157 @@
+.container {
+    margin: auto;
+  }
+  
+
+  header {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 55px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    background-color: rgb(160, 7, 7);
+    color: antiquewhite;
+    padding: 30px;
+  }
+  
+  #date {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  #logo {
+    width: 300px;
+    height: 200px;
+  }
+  
+  body {
+    scroll-behavior: smooth;
+    background-image: url(./img/back.jpg);
+    background-size: cover;
+    font-family: "Roboto Slab", serif;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  form {
+    width: 600px;
+    min-width: 20rem;
+    font-weight: 700;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 50px;
+    background-color: hsla(204, 83%, 54%);
+    padding: 4rem;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    height: 300px;
+  }
+
+  #title {
+    font-size: 30px;
+  }
+  
+  input {
+    margin-top: 20px;
+    width: 300px;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 20px;
+  }
+  
+  
+  
+  #resultTable {
+    background-color: black;
+    font-weight: 500;
+    color: antiquewhite;
+  }
+  
+  
+footer {
+  background-color: rgb(51, 50, 50);
+  color: white;
+  margin-top: 30px;
+  padding: 30px;
+  margin-bottom: 0%;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: right;
+  padding-left: 180px;
+}
+
+
+.left_align {
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 120px;
+}
+
+.center_align {
+  text-align: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.right_align {
+  text-align: right;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+#resulttable {
+  width: 900px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 30px;
+  margin-left: 470px;
+  padding: 40px;
+}
+
+#button {
+  width: 200px;
+  font-weight: 600;
+  margin: auto;
+  margin-top: 50px;
+  background-color: black;
+  color: antiquewhite;
+}
+
+
+#invoice {
+  font-size: 16px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: aliceblue;
+  font-weight: 600;
+  width: fit-content;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  box-shadow: 5px 10px 8px #888888;
+  
+}
+
+#invoice:empty {
+  display: none;
+}
+
+.regform {
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: auto;
+  margin-top: 50px;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+  height: auto;
+}
+
